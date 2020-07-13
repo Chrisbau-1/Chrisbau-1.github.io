@@ -134,6 +134,10 @@ li a {
   grid-column-start:1;
   
 }
+.img1{
+    max-width: 100%;
+    height: auto;
+}
 .button2 {
   grid-column-start: 1;
   grid-row-start: 5;
@@ -501,4 +505,9 @@ li {
   font-size: 16px;
 }
 }
- 
+ @media only screen and (max-width: 375px){
+  .img1{
+    max-width: 100%;
+    height: auto;
+  }
+}
