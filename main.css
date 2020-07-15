@@ -453,5 +453,8 @@ h1 {
     height: 300px;
     width: 200px;
   }
+  .doubled,.doubled2,.doubled3,.doubled4{
+    display: none;
+  }
 }
 
