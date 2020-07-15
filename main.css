@@ -55,7 +55,7 @@ li a:hover{
  
  .typing {
   width: 58ch;
-  animation: typing 6s steps(58), blink .5s step-end infinite alternate;
+  animation: typing 6s steps(58,end), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
@@ -139,9 +139,10 @@ li a:hover{
     height: auto;
 }
 .button2 {
-  grid-column-start: 1;
-  grid-row-start: 5;
+  grid-column-start: 2;
+  grid-row-start: 4;
   margin-top: 10px;
+  margin-right: 150px;
 }
 .btn2 {
   border-radius: 10px;
@@ -196,9 +197,10 @@ li a:hover{
     height: auto;
 }
 .button3 {
-  grid-column-start: 1;
-  grid-row-start: 5;
+  grid-column-start: 2;
+  grid-row-start: 4;
   margin-top: 10px;
+  margin-right: 150px;
 }
 .procard5 {
   margin-right: 150px;
@@ -246,9 +248,10 @@ li a:hover{
     height: auto;
 }
 .button4 {
-  grid-column-start: 1;
-  grid-row-start: 6;
+  grid-column-start: 2;
+  grid-row-start: 4;
   margin-top: 10px;
+  margin-right: 150px;
 }
 .procard8 {
   margin-right: 150px;
@@ -297,9 +300,10 @@ li a:hover{
     height: auto;
 }
 .button5 {
-  grid-column-start: 1;
-  grid-row-start: 6;
+  grid-column-start: 2;
+  grid-row-start: 4;
   margin-top: 10px;
+  margin-right: 150px;
 }
 .procard11 {
   margin-right: 150px;
@@ -386,6 +390,68 @@ footer > p {
     flex-basis: 100%;
     text-align: center;
     margin-left: 0;
+  }
+  .main {
+  background-image: none;
+}
+.typing{
+  width: 24ch;
+  animation: typing 3s steps(24, end), blink .5s step-end infinite alternate;
+}
+h1 {
+  font-size: 1.25rem;
+}
+#welcome-section>p {
+  margin-right: 50px;
+  font-size: .75rem;
+  
+}
+.welcome-button {
+  margin-right: 100px;
+}
+  .projects-section,.projects2,.projects3,.projects4{
+    display: block;
+    margin: 0;
+  }
+  .img1,.img2,.img3,.img4{
+    height: auto;
+    max-width: 100%;
+    margin-right: 150px;
+  }
+  .contact-section {
+    display: block;
+    
+  }
+  .contact-header {
+    font-size: 3rem;
+    margin-right: 75px;
+  }
+  .github-icon,.logo,.twitter,.email {
+    margin-right: 55px;
+  }
+  .twitter,.email {
+    padding-top: 50px;
+  }
+}
+@media only screen and (max-width:380px) {
+
+  .typing{
+    width: 22ch;
+    animation: typing 3s steps(22, end), blink .5s step-end infinite alternate;
+  }
+
+  #welcome-section>p {
+    margin-right: 35px;
+    font-size: .70rem;
+    
+  }
+  .welcome-button {
+    margin-right: 80px;
+  }
+
+  .img1,.img2,.img3,.img4{
+    height: 300px;
+    width: 200px;
   }
 }
 
