@@ -456,5 +456,8 @@ h1 {
   .doubled,.doubled2,.doubled3,.doubled4{
     display: none;
   }
+  .procard3,.procard6,.procard9,.procard12{
+    display: none;
+  }
 }
 
